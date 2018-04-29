@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #707171;
+	height: 100%;
+	width: 100%;
+ 	font-family: 'PT Sans', sans-serif;
+}
+
+h2{
+	font-size: 28pt;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+}
+#headerH{
+	font-size: 36pt;
+	position: absolute;
+	left: 35%;
+	top: 10%;
+}
+
+#headerDiv{
+	 height: 805px;
+	 width: 100%;
+}
+
+#image{
+	top: 10%;
+	padding-left: 100%;
+	height: 800px;
+	width: 500px;
+	background: url("background.png") no-repeat center;
+}
+
+#intro{
+	position: absolute;
+	left: 70%;
+	top: 30%;
+	font-size: 28pt;
+}
+
+#input{
+	height: 805px;
+	width: 100%;
+	background-color: #668B8B;
+}
+
+#wordReceive{
+	font-size: 36pt;
+	position: relative;
+	left: 30%;
+	top: 10%;
+}
+
+#talking{
+	position: relative;
+	padding-top: 20%;
+	left: 10%;
+}
+
+#soundwaves{
+	position: relative;
+	padding-top: 22%;
+	left: 12%;
+}
+
+#inputText{
+	position: relative;
+	top: -50%;
+	left: 70%;
+	width: 400px;
+	height: 200px;
+	font-size: 18pt;
+}
+
+#earNerves{
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	top: 1325px;
+	left: 70%;
+}
