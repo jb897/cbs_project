@@ -305,6 +305,31 @@ ul{
 	font-size: 16pt;
 }
 
+#resources{
+	position: absolute;
+	top: 5050px;
+	height: 810px;
+	width: 100%;
+	background-color: black;
+	padding-top: -50px;
+}
 
+#resources h1{
+	color: white;
+	position: absolute;
+	left: 30%;
+	top: 5%;
+	font-size: 35pt;
+}
+
+
+#resourcesText{
+	color: white;
+	position: relative;
+	float: center;
+	margin-top: 10%;
+	font-size: 18pt;
+	width: 100%
+}
 
 
