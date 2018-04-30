@@ -9,8 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="index.css"/>
 </head>
 <body>
-	<h1 id="headerH">Language in the brain </h1>
 	<div id="headerDiv">
+		<h1 id="headerH">Language in the brain </h1>
 		<h2>Josh Bowman</h2>
 		<div id="image"></div>
 		<p id="intro">To learn about how language is processed in the human brain, scroll down to the next section.</p>
@@ -21,12 +21,92 @@
 		</h1>
 		<img src="http://www.clker.com/cliparts/K/K/1/V/0/d/speaking-man-md.png" id="talking">
 		<img src="https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/a/ac/Pulsing_sound_waves.gif/revision/latest?cb=20171105152415" id="soundwaves">
-		<p id="inputText">Soundwaves that are reeived are intially seperated by frequency in the inner ear. These frequencies are mappedalong the basilar membrane in our cochlea. These frequencies are converted as activity in the cochlear nerve fibers, which terminate in the cochlear nuclear complex in the brain.</p>
+		<p id="inputText">Soundwaves that are received are intially seperated by frequency in the inner ear. These frequencies are mappedalong the basilar membrane in our cochlea. These frequencies are converted as activity in the cochlear nerve fibers, which terminate in the cochlear nuclear complex in the brain.</p>
 		<img src="earNerves.jpg" id="earNerves">
 	</div>
-	<footer class="footer">
-  		<div class="container" id="footer-container">
+	<div id="brainAreas">
+		<h1 id="brainH">Movement of auditory information
+		</h1>
+		<p id="brainText">Neurons fire to send auditory signals to the inferior colliculus in the midbrain and the medial geniculate nucleus in the thalamus. These regions then send information to the auditory cortex.</p>
+		<iframe src="https://giphy.com/embed/9N2UvCx7wXLnG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen id="neuronGif"></iframe>
+		<p id="brocaText">Information relating to speech takes a unique path, being projected into areas that are unique to human brains. The information can be sent to Broca's Area, Wernickes Area, or the inferior parietal and angular gyrus of the parietal lobe.</p>
+		<img id="bandwPic" src="bandw.jpg">
+		<img id="inferiorPic" src="angularGyrus.jpeg">
+	</div>
+	<div id="language">
+		<h1 id="languageH">Understanding parts of language</h1>
+		<p id="languageText">To be able to understand and interpret a sentence, the brain must be able to distinguish the speech into distinct parts. After having identified speech sounds from non-speech sounds, the brain must be able to understand the semantics and syntax of the speech. The semantics of a word refers to its meaning, while the syntax of a sentence involves the combining of individual words into a unquie sentence.</p>
+		<iframe src="https://giphy.com/embed/dYORjPasFFpo4" frameBorder="0" class="giphy-embed" allowFullScreen id="talkingGif"></iframe>
+		<p id="languageW">There are different theories for how semantic and syntactic processing is integrated. The anterior and posterior part of Wernickes area in the superior temporal gyrus are involved in processing syntax. The posterior portion of Wernicke's area is involved in processing semantic information, as well as integrating speech, motion, and facial processing, which is why it is easier to understand someone when looking at them rather than just listening.</p>
+		<form id=quiz>
+		<p id="question">Which area of the brain is used for processing syntax of a word?</p>
+		  <input type="radio" name="area" value="Broca's" onclick="incorrect()">Broca's Area<br>
+		  <input type="radio" name="area" value="Wernickes" onclick="answerFunc()">Anterior part of Wernicke's Area<br>
+		  <input type="radio" name="area" value="Hippocampus" "onclick="incorrect()"> Hippocampus
+		<p id="answer"></p>
+		</form>
+	</div>
+	<div id="production">
+		<h1 id="productionH">Language Production</h1>
+		<p id="productionText">The ability to formulate speech requires three processes: Conceptulatization, formulation, and articulattion.
+		</p>
+		<iframe src="https://giphy.com/embed/7G6xPNmCS0kta" width="480" height="396" frameBorder="0" class="giphy-embed" allowFullScreen id=idea></iframe><p><a href="https://giphy.com/gifs/idea-7G6xPNmCS0kta"></a></p>
+		<iframe src='https://gfycat.com/ifr/SlushyWastefulEasternnewt' frameborder='0' scrolling='no' width='318' height='200' allowfullscreen id=choosing></iframe>
+		<iframe src="https://giphy.com/embed/jJGYkBMmJvQ6A" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen id=speaking></iframe><p><a href="https://giphy.com/stickers/mouth-jJGYkBMmJvQ6A"></a></p>
+		<ul>
+		<li id=coneptualization>
+			Conceptualization is the first process of creating speech. The intention to produce speech links a concept to the specific words that a person wants to express. 
+		</li>
+		<br>
+		<li id=formulation>
+			Formulation is the second stage of language production. Formulation requires grammatical, phonetic, and morphological encoding. This is how the proper syntax is chosen, words are broken down into syllabus to be produced to speech, and producing the actual articulatory gestures in order to create audible articulation as the parts of the word are pieced together.
+		</li>
+		<br>
+		<li id=articulation>
+			Ariculation is the final stage of producing language. This is when physical parts such as the lungs, tongue, lips, jaw, and larynx are all used in collaboration, resulting in spoken, understandable speech. </li>
+		</ul>
+	</div>
+	<div id=disorders>
+		<h1 id=disordersH>Common language disorders</h1>
+		<p id=disordersText>There are many different kinds of language disorders. The main kind of disorder associated with brain activity in language abilities are called aphasias. Different locations of damage can cause different kind of apahasias. Click on the different kinds of aphasias to learn more about them!</p>
+		<form id=damage>
+		  <input class = aphasia type="radio" name="area" value="Broca's" onclick="aphasiaB()">Expressive Aphasia
+		  <br>
+		  <input class = aphasia type="radio" name="area" value="Wernicke's" onclick="aphasiaW()">Receptive Aphasia
+		  <br>
+		  <input class = aphasia type="radio" name="area" value="Conductive" onclick="aphasiaC()">Conductive Aphasia
+		  <br>
+		</form>
+
+		<div id=aphasiaDesc>
+			<p id="damageText"></p>
 		</div>
-	</footer>
+	</div>
 </body>
+
+<script>
+   
+function answerFunc(){
+	document.getElementById("answer").innerHTML = "You're answer is correct! Nice!";
+	document.getElementById("answer").style.color = "black";
+}
+
+function incorrect(){
+	document.getElementById("answer").innerHTML = "You're answer is incorrect!";
+	document.getElementById("answer").style.color = "red";
+}
+
+function aphasiaB(){
+	document.getElementById("damageText").innerHTML = "Expressive aphasia is also known as Broca's aphasia. This language order is present when damage occurs near Broca's area. People with this disorder often have trouble replicating speech, although most cognitive functions will remain intact. They are still able to understand language, while frequently omitting small words.";
+}
+
+function aphasiaC(){
+	document.getElementById("damageText").innerHTML = "Conduction aphasia is characterized by poor speech repitiion. This disorder is uncommon and occurs when branches of the arcuate fasciculus are damaged. Auditory perception is intact, and speech generation remains the same. Patients will be aware of their mistakes, and struggle significantly trying to correct them.";
+}
+
+function aphasiaW(){
+	document.getElementById("damageText").innerHTML = "Receptive aphasia is also known as Wernicke's aphasia. This language order is present when damage occurs near Wernicke's area of the brain. People with this disorder are able to produce speech without a problem. Most of the words that they produce lack in coherence. They have trouble trying to understand communication coming from another person, and are unaware of their mistakes.";
+	
+}
+</script>
 </html>

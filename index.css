@@ -13,9 +13,29 @@ h2{
 	left: 10%;
 	top: 30%;
 }
+
+button{
+	border-color: white;
+	background-color: black;
+	color: white;
+	border-width: 3px;
+	border-radius: 25%;
+	width: 150px;
+	font-size: 18px;
+}
+
+ul{
+	position: absolute;
+	padding-left: 60%;
+	padding-top: 10%;
+	font-size: 16pt;
+	width: 1300px;
+}
+
 #headerH{
 	font-size: 36pt;
 	position: absolute;
+	width: 500px;
 	left: 35%;
 	top: 10%;
 }
@@ -41,16 +61,17 @@ h2{
 }
 
 #input{
-	height: 805px;
+	height: 850px;
 	width: 100%;
 	background-color: #668B8B;
 }
 
 #wordReceive{
 	font-size: 36pt;
-	position: relative;
+	position: absolute;
 	left: 30%;
-	top: 10%;
+	top: 800px;
+	width: 600px;
 }
 
 #talking{
@@ -66,10 +87,10 @@ h2{
 }
 
 #inputText{
-	position: relative;
-	top: -50%;
+	position: absolute;
+	top: 950px;
 	left: 70%;
-	width: 400px;
+	width: 350px;
 	height: 200px;
 	font-size: 18pt;
 }
@@ -81,3 +102,209 @@ h2{
 	top: 1325px;
 	left: 70%;
 }
+
+#brainAreas{
+	position: absolute;
+	top: 1300px;
+	height: 1100px;
+	width: 100%;
+	background-color: #FF6347;
+	margin-top: 350px;
+}
+
+#brainH{
+	font-size: 36pt;
+	position: absolute;
+	left: 30%;
+	top: 3%;
+}
+
+#brainText{
+	position: absolute;
+	top: 150px;
+	left: 10%;
+	width: 400px;
+	height: 200px;
+	font-size: 16pt;
+}
+
+#neuronGif{
+	position: relative;
+	margin-top: 25%;
+	left: 10%;
+}
+
+#brocaText{
+	position: absolute;
+	margin-top: -30%;
+	left: 60%;
+	width: 400px;
+	height: 200px;
+	font-size: 18pt;
+}
+
+#bandwPic{
+	position: relative;
+	height: 250px;
+	width: 350px;
+	margin-left: 60%;
+	margin-top: -12%;
+}
+
+#inferiorPic{
+	position: relative;
+	height: 225px;
+	width: 300px;
+	margin-left: 70%;
+	margin-top: 2%;
+}
+
+#language{
+	position: absolute;
+	top: 2650px;
+	height: 810px;
+	width: 100%;
+	background-color: #9CBA7F;
+	padding-top: -50px;
+}
+
+#languageH{
+	position: absolute;
+	left: 30%;
+	top: 5%;
+	font-size: 35pt;
+}
+
+#languageText{
+	position: absolute;
+	left: 5%;
+	top: 30%;
+	font-size: 18pt;
+	width: 400px;
+}
+
+#talkingGif{
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 100px;
+	height: 500px;
+	width: 300px;
+}
+
+#languageW{
+	position: absolute;
+	padding-left: 60%;
+	padding-top: 10%;
+	font-size: 16pt;
+	width: 1300px;
+}
+
+#quiz{
+	position: absolute;
+	top: 500px;
+	left: 60%;
+	color: green;
+	font-size: 16pt;
+}
+
+#production{
+	position: absolute;
+	top: 3450px;
+	height: 810px;
+	width: 100%;
+	background-color: #8F5E99;
+	padding-top: -50px;
+}
+
+#productionH{
+	position: absolute;
+	left: 30%;
+	top: 5%;
+	font-size: 35pt;
+}
+
+#productionText{
+	position: absolute;
+	left: 5%;
+	top: 30%;
+	font-size: 18pt;
+	width: 400px;
+}
+
+#idea{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	top: 15%;
+	left: 40%;
+}
+
+#choosing{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	top: 40%;
+	left: 40%;
+}
+
+#speaking{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	top: 65%;
+	left: 40%;
+}
+
+#disorders{
+	position: absolute;
+	top: 4250px;
+	height: 810px;
+	width: 100%;
+	background-color: #F0E68C;
+	padding-top: -50px;
+}
+
+#disordersH{
+	position: absolute;
+	left: 30%;
+	top: 5%;
+	font-size: 35pt;
+}
+
+#disordersText{
+	position: absolute;
+	left: 5%;
+	top: 30%;
+	font-size: 18pt;
+	width: 400px;
+}
+
+#aphasiaDesc{
+	background-color: #778899;
+	height: 425px;
+	width: 475px;
+	position: relative;
+	top: 15%;
+	left: 45%;
+	color: black;
+	border-radius: 30%;
+}
+#damage{
+	position: absolute;
+	font-size: 25pt;
+	top: 75%;
+	left: 10%;
+}
+
+#damageText{
+	float: center;
+	position: relative;
+	top: 10%;
+	left: 1%;
+	margin: 30px;
+	font-size: 16pt;
+}
+
+
+
+
